@@ -21,21 +21,120 @@ def assembled_matrix
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
+ 
+ storage_room = [["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"],[ "Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]]
+
+  storage_room.sort
+
 end
+assembled_matrix
 
 def sorted_matrix
+  
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
+  storage_room= Array.new
+   storage_room=[
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+  ]
+]
+
+[storage_room[0].sort,storage_room[1].sort]
 end
+
+sorted_matrix
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
+   storage_room=[
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+  ]
+] 
+
+matrix[row][column]
 end
+
+
+storage_room = [
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+  ]
+] 
+
+matrix_lookup(storage_room,1,3)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
+  
+   storage_room=[
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+  ]
+] 
+
+matrix[row][column]=new_value
+matrix
 end
+
+
+storage_room=[
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+    ]
+  ]
+
+
+matrix_update(storage_room,0,2,"Lemons")
+
+
