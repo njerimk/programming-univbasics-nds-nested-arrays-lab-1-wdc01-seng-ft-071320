@@ -113,8 +113,8 @@ def matrix_update(matrix, row, column, new_value)
       "Asparagus"
   ]
 ] 
-matrix[row][column]="Lemons"
-matrix[row]
+puts matrix[row][column]="Lemons"
+puts matrix[row]
 
 end
 
