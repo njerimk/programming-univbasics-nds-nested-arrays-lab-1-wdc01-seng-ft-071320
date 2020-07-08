@@ -72,7 +72,7 @@ def matrix_lookup(matrix, row, column)
       "Asparagus"
   ]
 ] 
-puts sorted_matrix=[storage_room[row], storage_room[column].sort]
+sorted_matrix=[storage_room[row], storage_room[column].sort]
 puts sorted_matrix[row][column]
 
 end
@@ -92,8 +92,8 @@ storage_room = [
       "Asparagus"
   ]
 ] 
-sorted_matrix=[storage_room[row], storage_room[column].sort]
-matrix_lookup(sorted_matrix,1,1)
+
+matrix_lookup(storage_room,1,1)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
