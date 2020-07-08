@@ -72,7 +72,8 @@ def matrix_lookup(matrix, row, column)
       "Asparagus"
   ]
 ] 
-storage_room[row][column]
+sorted_matrix=[storage_room[row], storage_room[column].sort]
+sorted_matrix[row][column] 
 
 
 end
