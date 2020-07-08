@@ -131,8 +131,9 @@ storage_room=[
       "Avocadoes",
       "Asparagus"
   ]
+  ]
 
 
-matrix_update(storage_room[0],[2],["Lemons"])
+matrix_update(storage_room,0,2,"Lemons")
 
 
