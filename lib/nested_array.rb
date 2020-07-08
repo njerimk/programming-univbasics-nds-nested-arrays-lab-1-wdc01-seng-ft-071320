@@ -90,7 +90,7 @@ storage_room = [
       "Asparagus"
   ]
 ] 
-(matrix_lookup(storage_room,1,1))==("Avocadoes")
+matrix_lookup(storage_room.sorted,1,1)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
