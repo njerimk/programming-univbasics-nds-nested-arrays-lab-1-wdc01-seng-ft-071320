@@ -73,7 +73,7 @@ def matrix_lookup(matrix, row, column)
   ]
 ] 
 
-storage_room[row][column]="Avocadoes"
+storage_room[row][column]="Potatoes"
 end
 
 
