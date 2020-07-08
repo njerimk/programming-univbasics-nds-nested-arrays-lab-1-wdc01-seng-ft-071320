@@ -113,5 +113,26 @@ def matrix_update(matrix, row, column, new_value)
       "Asparagus"
   ]
 ] 
-matrix[row][column]=new_value
+puts matrix[row][column]=new_value
+puts matrix
 end
+
+
+storage_room=[
+     ["Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+      ],
+    ["Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+  ]
+
+
+matrix_update(storage_room, 0, 2, "Lemons")
+
+
