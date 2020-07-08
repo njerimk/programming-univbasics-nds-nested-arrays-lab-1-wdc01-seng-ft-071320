@@ -72,7 +72,7 @@ def matrix_lookup(matrix, row, column)
       "Asparagus"
   ]
 ] 
-storage_room.sort[row][column]
+puts [storage_room[row],sorted[column].sort]
 end
 
 
