@@ -73,7 +73,7 @@ def matrix_lookup(matrix, row, column)
   ]
 ] 
 
-storage_room[row][column].sort 
+storage_room[row][[column].sort] 
 
 end
 
