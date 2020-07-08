@@ -115,7 +115,7 @@ def matrix_update(matrix, row, column, new_value)
 ] 
 puts matrix[row][column]=new_value
 puts matrix[row]
-
+clea
 end
 
 
