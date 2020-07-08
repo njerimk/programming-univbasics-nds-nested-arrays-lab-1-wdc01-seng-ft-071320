@@ -73,7 +73,7 @@ def matrix_lookup(matrix, row, column)
   ]
 ] 
 
-put sorted_matrix=[storage_room[row],storage_room[column].sort]
+puts sorted_matrix=[storage_room[row],storage_room[column].sort]
 puts sorted_matrix
 end
 
