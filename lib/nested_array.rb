@@ -114,7 +114,7 @@ def matrix_update(matrix, row, column, new_value)
   ]
 ] 
 puts matrix
-puts matrix[row][column]
+puts matrix[row][column]="new_value"
 
 end
 
@@ -135,6 +135,6 @@ storage_room=[
   ]
 
 
-matrix_update(storage_room,0,2,"Lemons")
+matrix_update(storage_room,0,2)
 
 
