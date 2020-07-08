@@ -115,7 +115,7 @@ def matrix_update(matrix, row, column, new_value)
 ] 
 puts matrix[row][column]
 puts matrix[row]
-clea
+
 end
 
 
@@ -131,7 +131,7 @@ storage_room=[
       "Grapes",
       "Avocadoes",
       "Asparagus"
-  ]
+    ]
   ]
 
 
