@@ -135,6 +135,6 @@ storage_room=[
   ]
 
 
-matrix_update(storage_room,0,2)
+matrix_update(storage_room,0,2,"Lemons")
 
 
