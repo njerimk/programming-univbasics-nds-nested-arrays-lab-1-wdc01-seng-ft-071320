@@ -114,7 +114,7 @@ def matrix_update(matrix, row, column, new_value)
   ]
 ] 
 puts matrix[row][column]="Lemons"
-puts matrix[row]
+puts matrix[row].to_s
 
 end
 
